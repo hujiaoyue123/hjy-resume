@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历-胡皎月-前端</title>
+    <link rel="stylesheet" href="hjy-resume/css/common.css">
+    <link rel="stylesheet" href="hjy-resume/css/index.css">
+    <link rel="stylesheet" href="hjy-resume/css/jquery.fullPage.css">
+
+</head>
+<body>
+<!--头部-->
+<div class="header cf">
+    <div class="logo">
+        <div class="header-img">
+            <a href="https://github.com/hujiaoyue123/" target="_blank"></a>
+        </div>
+    </div>
+</div>
+<!--侧导航-->
+<div id="dowebok">
+    <div class="section section1">
+        <div class="photo"></div>
+        <p class="maxim ">幸福感来自于你能够解决问题的能力</p>
+        <div class="page1-line"></div>
+        <div>
+            <a href="#demo" class="menu">我的作品</a>
+            <a href="#secondPage" class="menu" >关于我</a>
+        </div>
+    </div>
+    <!--page2-->
+    <div id="about" class="section section2">
+        <p style="font-size: 24px">关于我</p>
+        <div class="content">
+            <ul class="section2-list">
+                <li>
+                    <div class="-img">
+                        <img src="hjy-resume/images/i_age.svg" alt="">
+                    </div>
+                    <div>
+                        <span ng-bind="item.key" class="ng-binding">年龄</span>/<span ng-bind="item.value" class="ng-binding">25岁</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="-img">
+                        <img src="hjy-resume/images/i_edu.svg" alt="">
+                    </div>
+                    <div>
+                        <span ng-bind="item.key" class="ng-binding">学历</span>/<span ng-bind="item.value" class="ng-binding">硕士</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="-img">
+                        <img src="hjy-resume/images/i_site.svg" alt="">
+                    </div>
+                    <div>
+                        <span ng-bind="item.key" class="ng-binding">籍贯</span>/<span ng-bind="item.value" class="ng-binding">内蒙古</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="-img">
+                        <img src="hjy-resume/images/i_status.svg" alt="">
+                    </div>
+                    <div>
+                        <span ng-bind="item.key" class="ng-binding">现居</span>/<span ng-bind="item.value" class="ng-binding">北京</span>
+                    </div>
+                </li>
+            </ul>
+            <p class="about">毕业于内蒙古工业大学，计算机技术专业</p>
+            <p class="about">3年互联网经验，1年前端开发经验</p>
+        </div>
+    </div>
+    <!--page3 skill-->
+    <div class="section section3">
+        <div id="skill_content">
+            <p class="title" style="font-size: 24px;">专业技能</p>
+            <div id="skill_list">
+                <div class="skill_list_content skill_scale" id="skill_list1">
+                    <div class="skill_icon" id="skill_icon1"></div>
+                    <div class="skill_name">JQuery</div>
+                    <div class="skill_flag"></div>
+                    <div class="skill_int" id="skill_int1">
+                        <ul>
+                            <li>有JQuery开发实践经验</li>
+                            <li>了解Vue.js新式前端框架</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill_list_content skill_scale" id="skill_list2">
+                    <div class="skill_icon" id="skill_icon2"></div>
+                    <div class="skill_name">HTML</div>
+                    <div class="skill_flag"></div>
+                    <div class="skill_int" id="skill_int2">
+                        <ul>
+                            <li>熟练运用html标签</li>
+                            <li>熟悉html5新标签，如audio，canvas</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill_list_content skill_scale" id="skill_list3">
+                    <div class="skill_icon" id="skill_icon3"></div>
+                    <div class="skill_name">CSS</div>
+                    <div class="skill_flag"></div>
+                    <div class="skill_int" id="skill_int3">
+                        <ul>
+                            <li>熟练运用css及css3新属性</li>
+                            <li>掌握bootstrap框架</li>
+                            <li>了解css预编译器Less及Sass</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill_list_content skill_scale" id="skill_list4">
+                    <div class="skill_icon" id="skill_icon4"></div>
+                    <div class="skill_name">JavaScript</div>
+                    <div class="skill_flag"></div>
+                    <div class="skill_int" id="skill_int4">
+                        <ul>
+                            <li>熟练使用JavaScript的用法</li>
+                            <li>对原型、继承、原型链、闭包等有一定认识</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--page5-->
+    <div class="section section5">
+        <div class="demo-title">我的作品</div>
+        <ul class="demo_box">
+               <li>
+                  <div class="imgbox">
+                      <a href="http://hujiaoyue.top/game/" target="_blank"><img src="hjy-resume/images/demo1.jpg" alt="翻牌游戏"></a>
+                  </div>
+                   <p>记忆力翻牌游戏</p>
+               </li>
+            <li>
+                <div class="imgbox">
+                    <a href="http://hujiaoyue.top/61/" target="_blank"><img src="hjy-resume/images/demo2.jpg" alt="端午节"></a>
+                </div>
+                <p>端午节活动场景</p>
+            </li>
+            <li>
+                <div class="imgbox">
+                    <a href="http://hujiaoyue.top/jinqulao/" target="_blank"><img src="hjy-resume/images/demo3.jpg" alt="音乐播放器"></a>
+                </div>
+                <p>音乐播放器</p>
+            </li>
+            <li>
+                <div class="imgbox">
+                    <a href="http://hujiaoyue.top/passion/" target="_blank"><img src="hjy-resume/images/demo4.jpg" alt="passion"></a>
+                </div>
+                <p>响应式手机页面</p>
+            </li>
+            <li>
+                <div class="imgbox">
+                    <a href="http://hujiaoyue.top/chezhan/" target="_blank"><img src="hjy-resume/images/demo5.jpg" alt="车展"></a>
+                </div>
+                <p>车展</p>
+            </li>
+            <li>
+                <div class="imgbox">
+                    <a href="http://hujiaoyue.top/aimeishi/" target="_blank"><img src="hjy-resume/images/demo6.jpg" alt="爱美食"></a>
+                </div>
+                <p>爱美食</p>
+            </li>
+            <li>
+                <div class="imgbox">
+                    <a href="http://hujiaoyue.top/hanbao/" target="_blank"><img src="hjy-resume/images/demo7.jpg" alt="汉堡"></a>
+                </div>
+                <p>汉堡</p>
+            </li>
+            <li>
+                <div class="imgbox">
+                    <a href="http://hujiaoyue.top/shishangwang/" target="_blank"><img src="hjy-resume/images/demo8.jpg" alt="试尚网"></a>
+                </div>
+                <p>试尚网</p>
+            </li>
+        </ul>
+    </div>
+    <!--page6 contact-->
+    <div class="section section6">
+        <div class="contact">联系我</div>
+        <div class="contact-p1">
+            <span style="color: greenyellow">专心</span>&nbsp&nbsp
+            <span style="color: #DDD021">细心</span>&nbsp&nbsp
+            <span style="color: #43C3DD">恒心</span>&nbsp&nbsp
+            <span style="color: #DD3924">耐心</span>
+        </div>
+        <div class="weixin">
+            <img src="hjy-resume/images/weixin.jpg" alt="">
+        </div>
+        <div class="contact-p2">
+            <p>电话：15910589251</p>
+            <p>邮箱：hu_jiaoyue@163.com</p>
+            <p>QQ：719704162</p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="hjy-resume/js/jquery.js"></script>
+<script type="text/javascript" src="hjy-resume/js/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="hjy-resume/js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="hjy-resume/js/index.js"></script>
+<script>
+    $(function () {
+        //fullPage
+        $('#dowebok').fullpage({
+            navigation: true,
+            navigationTooltips: ['首页', '关于我', '专业技能', '我的作品', '联系我'],
+            anchors: ['firstPage', 'secondPage', '3rdPage','demo']
+//            afterLoad: function(anchorLink, index){
+//                if(index == 2){
+//                    $('.section2').find('p').delay(500).animate({
+//                        bottom: '0'
+//                    }, 1500, 'easeOutExpo');
+//                }
+//                if(index == 3){
+//                    $('.section3').find('p').delay(500).animate({
+//                        bottom: '0'
+//                    }, 1500, 'easeOutExpo');
+//                }
+//                if(index == 4){
+//                    $('.section4').find('p').fadeIn(2000);
+//                }
+//            },
+//            onLeave: function(index, direction){
+//                if(index == '2'){
+//                    $('.section2').find('p').delay(500).animate({
+//                        left: '-120%'
+//                    }, 1500, 'easeOutExpo');
+//                }
+//                if(index == '3'){
+//                    $('.section3').find('p').delay(500).animate({
+//                        bottom: '-120%'
+//                    }, 1500, 'easeOutExpo');
+//                }
+//                if(index == '4'){
+//                    $('.section4').find('p').fadeOut(2000);
+//                }
+//            }
+        });
+
+    });
+</script>
+</body>
+</html>
